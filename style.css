@@ -1,0 +1,25 @@
+p {
+    text-align: center;
+}
+ol {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    animation-name: change_2;
+    animation-duration: 10s;
+}
+@keyframes change_1 {
+    from {background-color: white;}
+    to {background-color: black;}
+ }
+@keyframes change_2 {
+    from {color:black;}
+    to {color: white;}
+}
+body {
+    color: #000;
+    background-color: white;
+    animation-name: change_1;
+    animation-duration: 10s;
+}
