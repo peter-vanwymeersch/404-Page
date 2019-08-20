@@ -1,6 +1,9 @@
 p {
     text-align: center;
 }
+p:hover {
+    color: red;
+}
 ol {
     text-align: center;
 }
